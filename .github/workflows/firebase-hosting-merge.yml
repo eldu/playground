@@ -18,3 +18,5 @@ jobs:
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_PLAYGROUND_15214 }}'
           channelId: live
           projectId: playground-15214
+        env:
+          FIREBASE_CLI_EXPERIMENTS: webframeworks
